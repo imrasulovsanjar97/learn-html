@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form>
+        <h2>Registration</h2>
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" style="position: relative; right: -50px;"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" style="position: relative; right: -52px;"><br>
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" style="position: relative; right: -37px;"><br>
+        <label>Gender:</label>
+        <input type="radio" style="position: relative; right: -67px;" name="male">
+        <label for="male" style="position: relative;right: -67px;">Male</label>
+        <input type="radio" style="position: relative;right: -67px;" name="female">
+        <label for="female" style="position: relative; right: -67px;">Female</label><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" style="position: relative; right: -80px;"><br>
+        <label for="country">Country:</label>
+        <input type="text" name="country" style="position: relative; right: -65px;"><br>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" style="position: relative; right: -24px;"><br>
+        <label for="about">Write something to us:</label>
+        <textarea id="about" name="about" cols="50" rows="2"></textarea>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" style="position: relative; right: -52px;"><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" style="position: relative; right: -55px;"><br>
+        <input type="button" onclick="alert('You are registered!!!')" value="Register" style="position: relative; right: -70px;">
+        <input type="reset" value="Reset" style="position: relative; right: -90px;">
+   </form> 
+</body>
+</html>
